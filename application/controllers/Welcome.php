@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+//require  BASEPATH.'/libraries/lib/Wechat.php';
 class Welcome extends CI_Controller {
 
 	/**
@@ -21,6 +21,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+	    echo 1;return;
 	    $this->load->library('Wechat');
 
 	    header('Content-type:text');

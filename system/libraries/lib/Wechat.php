@@ -9,6 +9,20 @@
 
 class wechatCallbackapiTest
 {
+    private $token;
+    private $AppID;
+    private $AppSecret;
+
+    public function __construct()
+    {
+        //读取微信配置文件
+        $this->config->load('wx.php',TRUE);
+        $wxConfig = $this->config->item('weChat');
+        $this->token = $wxConfig['Token'];
+        $this->AppID = $wxConfig['AppID'];
+        $this->AppSecret = $wxConfig['AppSecret'];
+    }
+
     public function valid()
     {
         $echoStr = $_GET["echostr"];
@@ -23,7 +37,7 @@ class wechatCallbackapiTest
         $signature = $_GET["signature"];
         $timestamp = $_GET["timestamp"];
         $nonce = $_GET["nonce"];
-        $token = TOKEN;
+        $token = $this->token;
         $tmpArr = array($token, $timestamp, $nonce);
         sort($tmpArr);
         $tmpStr = implode($tmpArr);
@@ -38,6 +52,7 @@ class wechatCallbackapiTest
 
     public function responseMsg()
     {
+
 //        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
         $postStr = (isset($GLOBALS["HTTP_RAW_POST_DATA"]) ? $GLOBALS["HTTP_RAW_POST_DATA"] : file_get_contents('php://input'));
 
@@ -45,7 +60,7 @@ class wechatCallbackapiTest
             $this->logger("R ".$postStr);
             $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
             $RX_TYPE = trim($postObj->MsgType);
-
+            $result = '';
             switch ($RX_TYPE)
             {
                 case "event":
@@ -179,4 +194,62 @@ $item_str
             file_put_contents($log_filename, date('H:i:s')." ".$log_content."\r\n", FILE_APPEND);
         }
     }
+
+    /**
+     * 获取access_token
+     * @return mixed
+     */
+    private function getAccessToken()
+    {
+        $this->config->load('wx.php');
+        $get_access_token_url = $this->config->item('get_access_token_url');
+        $url =$get_access_token_url."appid=".$this->AppID."&secret=".$this->AppSecret;
+        $access_token = file_get_contents($url);
+        return json_decode($access_token,true);
+
+    }
+
+    private function definedMenu() {
+
+        $data = '{
+                    "button":[
+             {
+                 "type":"click",
+                  "name":"今日歌曲",
+                  "key":"a1"
+              },
+              {
+                  "name":"菜单",
+                   "sub_button":[
+                   {
+                       "type":"view",
+                       "name":"搜索",
+                       "url":"http://www.soso.com/"
+                    },
+                    {
+                        "type":"miniprogram",
+                         "name":"wxa",
+                         "url":"http://mp.weixin.qq.com",
+                         "appid":"wx286b93c14bbf93aa",
+                         "pagepath":"pages/lunar/index"
+                     },
+                    {
+                        "type":"click",
+                       "name":"赞一下我们",
+                       "key":"a2"
+                    }]
+               }]
+         }';
+        $access_token =  $this->getAccessToken();
+        $get_menu_url = $this->config->item('get_menu_url');
+        $url = $get_menu_url .$access_token['access_token'];
+
+        $ch = curl_init($url);
+        curl_setopt($ch,CURLOPT_CUSTOMREQUEST,'POST');
+        curl_setopt($ch,CURLOPT_POSTFIELDS,$data);
+        curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+        curl_setopt($ch,CURLOPT_HTTPHEADER,array('Content-Type:application/json','Content-Length: '.strlen($data)));
+        $data = curl_exec($ch); //print_r($data);//创建成功返回：{"errcode":0,"errmsg":"ok"}
+    }
+
 }

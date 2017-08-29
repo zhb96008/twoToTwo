@@ -17,17 +17,16 @@ class Welcome extends CI_Controller {
 	 * So any other public methods not prefixed with an underscore will
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
-     *
+     *library
 	 */
 	public function index()
 	{
-//	    $this->load->library('Wechat');
+//	    $this->load->('Wechat');
 
 	    header('Content-type:text');
         define("TOKEN", "zhbToken");
         $wechatObj = new wechatCallbackapiTest();
         if (!isset($_GET['echostr'])) {
-            //
             $wechatObj->responseMsg();
         }else{
             $wechatObj->valid();

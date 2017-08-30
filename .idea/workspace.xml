@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ce61d9-d765-41da-93df-191c342e88eb" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/core/MY_helper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Welcome.php" afterPath="$PROJECT_DIR$/application/controllers/Welcome.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/lib/Wechat.php" afterPath="$PROJECT_DIR$/application/libraries/lib/Wechat.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,47 +21,18 @@
       <file leaf-file-name="Welcome.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="462">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Wechat.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/common/Wechat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <marker date="1502114575563" expanded="true" signature="1432:1810" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wechat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/libraries/lib/Wechat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1503671013088" expanded="true" signature="2655:2844" ph="..." />
-                <marker date="1503671013088" expanded="true" signature="3121:3295" ph="..." />
-                <marker date="1503671013088" expanded="true" signature="3499:3750" ph="..." />
-                <marker date="1503671013088" expanded="true" signature="3722:3743" ph="..." />
-                <marker date="1503671013088" expanded="true" signature="3982:4155" ph="..." />
-                <marker date="1503671013088" expanded="true" signature="4326:4492" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wechat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/libraries/lib/Wechat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
               <folding>
                 <element signature="e#634#736#0#PHP" expanded="false" />
                 <element signature="e#695#736#0#PHP" expanded="false" />
@@ -73,7 +42,6 @@
                 <element signature="e#2540#2617#0#PHP" expanded="false" />
                 <element signature="n#receiveImage#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
                 <element signature="n#receiveLocation#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
-                <element signature="n#receiveVoice#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
                 <element signature="n#receiveVideo#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
                 <element signature="n#transmitVideo#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
                 <element signature="n#transmitVoice#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
@@ -81,20 +49,20 @@
                 <element signature="n#transmitNews#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
                 <element signature="n#transmitImage#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
                 <element signature="n#transmitMusic#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
-                <element signature="e#10721#10803#0#PHP" expanded="false" />
+                <element signature="e#10740#10822#0#PHP" expanded="false" />
                 <element signature="n#logger#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
-                <marker date="1504018448882" expanded="true" signature="6996:7123" ph="..." />
-                <marker date="1504018448882" expanded="true" signature="7265:7431" ph="..." />
-                <marker date="1504018448882" expanded="true" signature="7656:7703" ph="..." />
-                <marker date="1504018448882" expanded="true" signature="7795:7961" ph="..." />
-                <marker date="1504018448882" expanded="true" signature="8193:8382" ph="..." />
-                <marker date="1504018448882" expanded="true" signature="8676:8850" ph="..." />
-                <marker date="1504018448882" expanded="true" signature="9054:9305" ph="..." />
-                <marker date="1504018448882" expanded="false" signature="9277:9298" ph="..." />
-                <marker date="1504018448882" expanded="true" signature="9549:9596" ph="..." />
-                <marker date="1504018448882" expanded="true" signature="9688:9854" ph="..." />
-                <marker date="1504018448882" expanded="false" signature="10082:10255" ph="..." />
-                <marker date="1504018448882" expanded="false" signature="10426:10592" ph="..." />
+                <marker date="1504098269657" expanded="true" signature="7015:7142" ph="..." />
+                <marker date="1504098269657" expanded="true" signature="7284:7450" ph="..." />
+                <marker date="1504098269657" expanded="true" signature="7675:7722" ph="..." />
+                <marker date="1504098269657" expanded="true" signature="7814:7980" ph="..." />
+                <marker date="1504098269657" expanded="true" signature="8212:8401" ph="..." />
+                <marker date="1504098269657" expanded="true" signature="8695:8869" ph="..." />
+                <marker date="1504098269657" expanded="true" signature="9073:9324" ph="..." />
+                <marker date="1504098269657" expanded="false" signature="9296:9317" ph="..." />
+                <marker date="1504098269657" expanded="true" signature="9568:9615" ph="..." />
+                <marker date="1504098269657" expanded="true" signature="9707:9873" ph="..." />
+                <marker date="1504098269657" expanded="false" signature="10101:10274" ph="..." />
+                <marker date="1504098269657" expanded="false" signature="10445:10611" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/application/core/MY_helper.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -250,48 +218,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wechat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wechat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wechat" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -306,7 +235,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,18 +338,19 @@
       <workItem from="1503665971608" duration="1720000" />
       <workItem from="1503671049392" duration="1353000" />
       <workItem from="1503924537817" duration="5575000" />
-      <workItem from="1504010994192" duration="5116000" />
+      <workItem from="1504010994192" duration="5601000" />
+      <workItem from="1504095554935" duration="796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28204000" />
+    <option name="totallyTimeSpent" value="29485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37821484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21028744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -722,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,43 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#254#313#0#PHP" expanded="false" />
-            <element signature="n#valid#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="e#1130#1237#0#PHP" expanded="false" />
-            <element signature="e#1194#1237#0#PHP" expanded="false" />
-            <element signature="n#responseMsg#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#receiveText#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#receiveImage#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#receiveLocation#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#receiveVoice#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="e#6257#6586#0#PHP" expanded="false" />
-            <element signature="e#6449#6586#0#PHP" expanded="false" />
-            <element signature="n#receiveVideo#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#receiveLink#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#transmitText#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#transmitImage#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#transmitVoice#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#transmitVideo#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#transmitNews#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="e#9353#9409#0#PHP" expanded="false" />
-            <element signature="e#9650#9803#0#PHP" expanded="false" />
-            <element signature="n#transmitMusic#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="n#logger#0;n#Wechat#0;n#!!top" expanded="false" />
-            <element signature="e#11108#11221#0#PHP" expanded="false" />
-            <marker date="1504015238822" expanded="false" signature="7226:7415" ph="..." />
-            <marker date="1504015238822" expanded="true" signature="7650:7697" ph="..." />
-            <marker date="1504015238822" expanded="true" signature="7789:7955" ph="..." />
-            <marker date="1504015238822" expanded="false" signature="8181:8228" ph="..." />
-            <marker date="1504015238822" expanded="false" signature="8320:8486" ph="..." />
-            <marker date="1504015238822" expanded="false" signature="8712:8839" ph="..." />
-            <marker date="1504015238822" expanded="false" signature="8981:9147" ph="..." />
-            <marker date="1504015238822" expanded="false" signature="9439:9613" ph="..." />
-            <marker date="1504015238822" expanded="false" signature="9827:10046" ph="..." />
-            <marker date="1504015238822" expanded="false" signature="10018:10039" ph="..." />
-            <marker date="1504015238822" expanded="false" signature="10291:10464" ph="..." />
-            <marker date="1504015238822" expanded="false" signature="10634:10800" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,9 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding>
-            <marker date="1504014931307" expanded="true" signature="1238:1616" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,14 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <marker date="1421560442449" expanded="true" signature="4135:4456" ph="..." />
-            <marker date="1421560442449" expanded="true" signature="4292:4449" ph="..." />
-            <marker date="1421560442449" expanded="true" signature="4756:4895" ph="..." />
-            <marker date="1421560442449" expanded="true" signature="5075:5296" ph="..." />
-            <marker date="1421560442449" expanded="true" signature="5266:5289" ph="..." />
-            <marker date="1421560442449" expanded="true" signature="5481:5670" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1421560441753" expanded="true" signature="65:320" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,14 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <marker date="1503580394444" expanded="true" signature="2602:2791" ph="..." />
-            <marker date="1503580394444" expanded="true" signature="3068:3242" ph="..." />
-            <marker date="1503580394444" expanded="true" signature="3446:3697" ph="..." />
-            <marker date="1503580394444" expanded="true" signature="3669:3690" ph="..." />
-            <marker date="1503580394444" expanded="true" signature="3929:4102" ph="..." />
-            <marker date="1503580394444" expanded="true" signature="4273:4439" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,15 +707,48 @@
     <entry file="file://$PROJECT_DIR$/application/core/MY_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/common/Wechat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding>
+            <marker date="1502114575563" expanded="true" signature="1432:1810" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libraries/lib/Wechat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1504019074001" expanded="true" signature="2655:2844" ph="..." />
+            <marker date="1504019074001" expanded="true" signature="3121:3295" ph="..." />
+            <marker date="1504019074001" expanded="true" signature="3499:3750" ph="..." />
+            <marker date="1504019074001" expanded="true" signature="3722:3743" ph="..." />
+            <marker date="1504019074001" expanded="true" signature="3982:4155" ph="..." />
+            <marker date="1504019074001" expanded="true" signature="4326:4492" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/lib/Wechat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
           <folding>
             <element signature="e#634#736#0#PHP" expanded="false" />
             <element signature="e#695#736#0#PHP" expanded="false" />
@@ -857,7 +758,6 @@
             <element signature="e#2540#2617#0#PHP" expanded="false" />
             <element signature="n#receiveImage#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
             <element signature="n#receiveLocation#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
-            <element signature="n#receiveVoice#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
             <element signature="n#receiveVideo#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
             <element signature="n#transmitVideo#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
             <element signature="n#transmitVoice#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
@@ -865,53 +765,20 @@
             <element signature="n#transmitNews#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
             <element signature="n#transmitImage#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
             <element signature="n#transmitMusic#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
-            <element signature="e#10721#10803#0#PHP" expanded="false" />
+            <element signature="e#10740#10822#0#PHP" expanded="false" />
             <element signature="n#logger#0;n#wechatCallbackapiTest#0;n#!!top" expanded="false" />
-            <marker date="1504018448882" expanded="true" signature="6996:7123" ph="..." />
-            <marker date="1504018448882" expanded="true" signature="7265:7431" ph="..." />
-            <marker date="1504018448882" expanded="true" signature="7656:7703" ph="..." />
-            <marker date="1504018448882" expanded="true" signature="7795:7961" ph="..." />
-            <marker date="1504018448882" expanded="true" signature="8193:8382" ph="..." />
-            <marker date="1504018448882" expanded="true" signature="8676:8850" ph="..." />
-            <marker date="1504018448882" expanded="true" signature="9054:9305" ph="..." />
-            <marker date="1504018448882" expanded="false" signature="9277:9298" ph="..." />
-            <marker date="1504018448882" expanded="true" signature="9549:9596" ph="..." />
-            <marker date="1504018448882" expanded="true" signature="9688:9854" ph="..." />
-            <marker date="1504018448882" expanded="false" signature="10082:10255" ph="..." />
-            <marker date="1504018448882" expanded="false" signature="10426:10592" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/libraries/lib/Wechat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1503671013088" expanded="true" signature="2655:2844" ph="..." />
-            <marker date="1503671013088" expanded="true" signature="3121:3295" ph="..." />
-            <marker date="1503671013088" expanded="true" signature="3499:3750" ph="..." />
-            <marker date="1503671013088" expanded="true" signature="3722:3743" ph="..." />
-            <marker date="1503671013088" expanded="true" signature="3982:4155" ph="..." />
-            <marker date="1503671013088" expanded="true" signature="4326:4492" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/common/Wechat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <marker date="1502114575563" expanded="true" signature="1432:1810" ph="..." />
+            <marker date="1504098269657" expanded="true" signature="7015:7142" ph="..." />
+            <marker date="1504098269657" expanded="true" signature="7284:7450" ph="..." />
+            <marker date="1504098269657" expanded="true" signature="7675:7722" ph="..." />
+            <marker date="1504098269657" expanded="true" signature="7814:7980" ph="..." />
+            <marker date="1504098269657" expanded="true" signature="8212:8401" ph="..." />
+            <marker date="1504098269657" expanded="true" signature="8695:8869" ph="..." />
+            <marker date="1504098269657" expanded="true" signature="9073:9324" ph="..." />
+            <marker date="1504098269657" expanded="false" signature="9296:9317" ph="..." />
+            <marker date="1504098269657" expanded="true" signature="9568:9615" ph="..." />
+            <marker date="1504098269657" expanded="true" signature="9707:9873" ph="..." />
+            <marker date="1504098269657" expanded="false" signature="10101:10274" ph="..." />
+            <marker date="1504098269657" expanded="false" signature="10445:10611" ph="..." />
           </folding>
         </state>
       </provider>

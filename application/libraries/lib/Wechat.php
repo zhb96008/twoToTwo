@@ -118,6 +118,7 @@ class wechatCallbackapiTest
     private function receiveVoice($object)
     {
         if (isset($object->Recognition) && !empty($object->Recognition)){
+            //语音识别
             $content = "你刚才说的是：".$object->Recognition;
             $result = $this->transmitText($object, $content);
         }else{

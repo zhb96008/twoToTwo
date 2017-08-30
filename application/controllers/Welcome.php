@@ -2,6 +2,8 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 // require BASEPATH.'/libraries/lib/Wechat.php';
 require S_SERVER['DOCUMENT_ROOT'].'/libraries/lib/Wechat.php';
+//require '/application/libraries/lib/Wechat.php';
+//require $_SERVER['DOCUMENT_ROOT'].'/application/libraries/lib/Wechat.php';
 class Welcome extends CI_Controller {
 
 	/**
@@ -20,7 +22,6 @@ class Welcome extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
      *library
 	 */
-<<<<<<< HEAD
 	private  $wxObj;
 //	const TOKEN = 'zhbToken';
 
@@ -29,19 +30,23 @@ class Welcome extends CI_Controller {
         $this->wxObj = new wechatCallbackapiTest();
 
         header('Content-type:text');
-=======
 	public function index()
 	{
+
 //	    $this->load->('Wechat');
->>>>>>> wechat
 
         if (!isset($_GET['echostr'])) {
-<<<<<<< HEAD
             //
             $this->wxObj->responseMsg();
-=======
+//	    $this->load->library('lib/Wechat');
+
+
+	    header('Content-type:text');
+        define("TOKEN", "zhbToken");
+        $wechatObj = new CI_Wechat();
+        if (!isset($_GET['echostr'])) {
+
             $wechatObj->responseMsg();
->>>>>>> wechat
         }else{
             $this->wxObj->valid();
         }

@@ -55,7 +55,6 @@ class CI_Wechat
     //入口 ，消息响应，回复
     public function responseMsg()
     {
-       
 
         $postStr = (isset($GLOBALS["HTTP_RAW_POST_DATA"]) ? $GLOBALS["HTTP_RAW_POST_DATA"] : file_get_contents('php://input'));
         if (!empty($postStr)){
@@ -107,7 +106,7 @@ class CI_Wechat
         switch ($object->Event)
         {
             case "subscribe":
-                $content = "欢迎关注方倍工作室";
+                $content = "欢迎关注t8n工作室";
                 break;
             case "unsubscribe":
                 $content = "取消关注";

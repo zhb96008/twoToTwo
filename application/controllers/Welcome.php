@@ -25,7 +25,7 @@ class Welcome extends CI_Controller {
     {
         parent::__construct();
         $this->load->library('lib/Wechat');
-        $this->wxObj = $this->Wechat;
+        $this->wxObj = $this->wechat;
     }
 	public function index()
     {

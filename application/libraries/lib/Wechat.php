@@ -7,7 +7,7 @@
 
 
 
-class CI_WechatApi
+class CI_Wechat
 {
 
     private $token;
@@ -15,14 +15,15 @@ class CI_WechatApi
     private $AppSecret;
 
     public function __construct()
-{
-    //读取微信配置文件
-    $this->config->load('wx.php',TRUE);
-    $wxConfig = $this->config->item('weChat');
-    $this->token = $wxConfig['Token'];
-    $this->AppID = $wxConfig['AppID'];
-    $this->AppSecret = $wxConfig['AppSecret'];
-}
+    {
+        $CI =& get_instance();
+        //读取微信配置文件
+        $CI->config->load('wx',TRUE);
+        $wxConfig =  $CI->config->item('weChat','wx');
+        $this->token = $wxConfig['Token'];
+        $this->AppID = $wxConfig['AppID'];
+        $this->AppSecret = $wxConfig['AppSecret'];
+    }
 
     public function valid()
     {

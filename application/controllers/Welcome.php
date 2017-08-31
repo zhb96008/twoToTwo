@@ -20,11 +20,12 @@ class Welcome extends CI_Controller {
      *library
 	 */
 	private  $wxObj;
-//	const TOKEN = 'zhbToken';
 
 	public function __construct()
     {
-        $this->wxObj = new CI_WechatApi();
+        parent::__construct();
+        $this->load->library('lib/Wechat');
+        $this->wxObj = $this->Wechat;
     }
 	public function index()
     {
@@ -33,7 +34,6 @@ class Welcome extends CI_Controller {
             header('Content-type:text');
             $this->wxObj->responseMsg();
         } else {
-            
             $this->wxObj->valid();
         }
     }

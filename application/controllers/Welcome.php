@@ -34,6 +34,7 @@ class Welcome extends CI_Controller {
             header('Content-type:text');
             $this->wxObj->responseMsg();
         } else {
+            
             $this->wxObj->valid();
         }
     }

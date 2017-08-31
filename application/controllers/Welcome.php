@@ -1,9 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-// require BASEPATH.'/libraries/lib/Wechat.php';
-require S_SERVER['DOCUMENT_ROOT'].'/libraries/lib/Wechat.php';
-//require '/application/libraries/lib/Wechat.php';
-//require $_SERVER['DOCUMENT_ROOT'].'/application/libraries/lib/Wechat.php';
+//require S_SERVER['DOCUMENT_ROOT'].'/libraries/lib/Wechat.php';
 class Welcome extends CI_Controller {
 
 	/**
@@ -27,34 +24,19 @@ class Welcome extends CI_Controller {
 
 	public function __construct()
     {
-        $this->wxObj = new wechatCallbackapiTest();
+        $this->wxObj = new CI_WechatApi();
 
-        header('Content-type:text');
+    }
 	public function index()
-	{
-
-//	    $this->load->('Wechat');
-
+    {
+        //接入微信
         if (!isset($_GET['echostr'])) {
-            //
+            header('Content-type:text');
             $this->wxObj->responseMsg();
-//	    $this->load->library('lib/Wechat');
-
-
-	    header('Content-type:text');
-        define("TOKEN", "zhbToken");
-        $wechatObj = new CI_Wechat();
-        if (!isset($_GET['echostr'])) {
-
-            $wechatObj->responseMsg();
-        }else{
+        } else {
             $this->wxObj->valid();
         }
     }
 
-    public function index()
-	{
 
-		$this->load->view('welcome_message');
-	}
 }

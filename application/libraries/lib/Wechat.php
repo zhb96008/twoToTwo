@@ -7,8 +7,23 @@
 
 
 
-class CI_Wechat
+class CI_WechatApi
 {
+
+    private $token;
+    private $AppID;
+    private $AppSecret;
+
+    public function __construct()
+{
+    //读取微信配置文件
+    $this->config->load('wx.php',TRUE);
+    $wxConfig = $this->config->item('weChat');
+    $this->token = $wxConfig['Token'];
+    $this->AppID = $wxConfig['AppID'];
+    $this->AppSecret = $wxConfig['AppSecret'];
+}
+
     public function valid()
     {
         $echoStr = $_GET["echostr"];
@@ -23,7 +38,7 @@ class CI_Wechat
         $signature = $_GET["signature"];
         $timestamp = $_GET["timestamp"];
         $nonce = $_GET["nonce"];
-        $token = TOKEN;
+        $token = $this->token;
         $tmpArr = array($token, $timestamp, $nonce);
         sort($tmpArr);
         $tmpStr = implode($tmpArr);
@@ -98,6 +113,11 @@ class CI_Wechat
         }
         $result = $this->transmitText($object, $content);
         return $result;
+    }
+    //接收链接
+    public function receiveLink($object)
+    {
+        return '';
     }
 
     //接收图片消息

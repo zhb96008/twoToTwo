@@ -30,6 +30,7 @@ class Welcome extends CI_Controller {
         $this->wxObj = new wechatCallbackapiTest();
 
         header('Content-type:text');
+    }
 	public function index()
 	{
 

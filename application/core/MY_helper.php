@@ -22,3 +22,23 @@ function http_request($url ,$method='get',$data = '') {
     curl_exec($ch);
     curl_close($ch);
 }
+
+/**
+ * 分词
+ */
+function participle($text) {
+
+}
+
+
+function searchWeather($city) {
+    // 连接数据库
+
+    //101210101
+    $index = '101210101';
+    //http://www.weather.com.cn/data/sk/101210101.html
+    $url ='http://www.weather.com.cn/data/sk/'.$index;
+    $data = http_request($url,'get');
+    $result = json_decode($data,true);
+    return $result;
+}
